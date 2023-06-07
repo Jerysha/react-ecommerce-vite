@@ -5,6 +5,7 @@ import Layout from '../../Components/Layout'
 
 function SignIn() {
   const context = useContext(ShoppingCartContext)
+  
   const [view, setView] = useState('user-info')
   const form = useRef(null)
 
